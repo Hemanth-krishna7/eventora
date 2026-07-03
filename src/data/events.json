@@ -1,0 +1,80 @@
+[
+  {
+    "id": "1",
+    "title": "Metropolitan Jazz Night",
+    "category": "Music",
+    "date": "2026-08-15",
+    "time": "19:00",
+    "venue": "The Blue Note Hall",
+    "city": "New York",
+    "price": 45.00,
+    "image": "https://images.unsplash.com/photo-1511192336575-5a79af67a629?w=800&auto=format&fit=crop&q=60",
+    "shortDescription": "An evening of smooth jazz featuring world-renowned musicians.",
+    "fullDescription": "Join us for an unforgettable evening at The Blue Note Hall. The Metropolitan Jazz Night brings together the finest jazz instrumentalists and vocalists for a night of soul-stirring melodies and improvisations. Perfect for couples, music enthusiasts, and anyone looking to unwind."
+  },
+  {
+    "id": "2",
+    "title": "Global Tech Summit 2026",
+    "category": "Tech",
+    "date": "2026-09-10",
+    "time": "09:00",
+    "venue": "Silicon Center",
+    "city": "San Francisco",
+    "price": 199.00,
+    "image": "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=800&auto=format&fit=crop&q=60",
+    "shortDescription": "Explore the future of AI, cloud computing, and Web3 technology.",
+    "fullDescription": "The Global Tech Summit is the premier gathering for developers, tech pioneers, and industry leaders. Dive deep into cutting-edge sessions on artificial intelligence, decentralized systems, next-gen cloud architectures, and connect with fellow creators from across the globe."
+  },
+  {
+    "id": "3",
+    "title": "International Food & Wine Festival",
+    "category": "Food",
+    "date": "2026-08-22",
+    "time": "12:00",
+    "venue": "Central Park Gardens",
+    "city": "Chicago",
+    "price": 60.00,
+    "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800&auto=format&fit=crop&q=60",
+    "shortDescription": "Savor gourmet dishes and exquisite wines from top international chefs.",
+    "fullDescription": "Indulge your palate at the annual International Food & Wine Festival. Taste curated dishes prepared by Michelin-starred chefs, pair them with award-winning vintage wines, and attend interactive cooking masterclasses hosted by culinary legends."
+  },
+  {
+    "id": "4",
+    "title": "Championship Run 10K",
+    "category": "Sports",
+    "date": "2026-10-04",
+    "time": "07:00",
+    "venue": "Lakeside Parkway",
+    "city": "Chicago",
+    "price": 30.00,
+    "image": "https://images.unsplash.com/photo-1502224562085-639556652f33?w=800&auto=format&fit=crop&q=60",
+    "shortDescription": "Join the city's most anticipated annual 10K running event.",
+    "fullDescription": "Lace up your running shoes for the Lakeside Championship Run. Whether you're aiming for a personal best or looking for a fun morning jog with friends, this scenic 10-kilometer route offers beautiful lake views, hydration stations, and a vibrant post-run celebration."
+  },
+  {
+    "id": "5",
+    "title": "Modern Art Exhibition",
+    "category": "Arts",
+    "date": "2026-11-12",
+    "time": "10:00",
+    "venue": "Contemporary Canvas Gallery",
+    "city": "Los Angeles",
+    "price": 15.00,
+    "image": "https://images.unsplash.com/photo-1460661419201-fd4cecdf8a8b?w=800&auto=format&fit=crop&q=60",
+    "shortDescription": "A curation of contemporary paintings, sculptures, and digital art.",
+    "fullDescription": "Experience art through a new lens at the Contemporary Canvas Gallery. This winter exhibition features pioneering works by emerging local and international artists. Highlights include immersive virtual reality installations, large-scale abstract paintings, and thought-provoking sculptures."
+  },
+  {
+    "id": "6",
+    "title": "E-Commerce Growth Webinar",
+    "category": "Business",
+    "date": "2026-08-05",
+    "time": "15:00",
+    "venue": "Virtual Event Center",
+    "city": "Online",
+    "price": 0.00,
+    "image": "https://images.unsplash.com/photo-1515187029135-18ee286d815b?w=800&auto=format&fit=crop&q=60",
+    "shortDescription": "Learn strategies to scale your online retail store to 7-figures.",
+    "fullDescription": "In this intensive online seminar, industry experts share their blueprints for building, scaling, and optimizing digital brands. Topics include conversion rate optimization, omnichannel marketing, customer acquisition strategies, and leveraging analytics for growth."
+  }
+]
