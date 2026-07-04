@@ -1,16 +1,37 @@
-# React + Vite
+# Eventora
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Eventora is a modern event discovery and ticket booking website that helps users explore upcoming events, view event details, and book tickets through a simple and user-friendly interface. The website is designed to provide a smooth experience across all devices.
 
-Currently, two official plugins are available:
+## Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+https://4ada8a83.eventora.pages.dev/
 
-## React Compiler
+## What You'll Find
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Responsive design for mobile, tablet, and desktop
+- Modern landing page
+- Browse events across multiple categories
+- Search and filter events
+- Detailed event information
+- Ticket booking with form validation
+- Booking confirmation page
 
-## Expanding the ESLint configuration
+## Built With
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- Vite
+- Tailwind CSS
+- JavaScript
+
+## Run Locally
+
+```bash
+git clone https://github.com/Hemanth-krishna7/eventora.git
+cd eventora
+npm install
+npm run dev
+```
+
+## About This Project
+
+Eventora is a frontend event booking platform that allows users to discover events, explore event details, and complete a simple ticket booking process. The application focuses on clean design, responsive layouts, and an intuitive user experience to make browsing and booking events quick and easy.
