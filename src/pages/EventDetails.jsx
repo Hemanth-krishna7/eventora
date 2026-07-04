@@ -1,5 +1,5 @@
 import { useParams, Link } from 'react-router-dom';
-import fallbackImage from '../assets/hero.png';
+import fallbackImage from '../assets/hero.jpg';
 import { formatPrice } from '../utils/format';
 import eventsData from '../data/events.json';
 import EventCard from '../components/EventCard';
@@ -53,11 +53,11 @@ function EventDetails() {
   return (
     <div className="bg-gray-50 min-h-screen py-8 md:py-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        
+
         {/* Main Details Panel */}
         <div className="bg-white rounded-xl shadow-md border border-gray-100 p-6 md:p-8 mb-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12">
-            
+
             {/* Left Column: Image */}
             <div className="w-full h-64 sm:h-96 lg:h-[450px] rounded-xl overflow-hidden bg-gray-200">
               <img

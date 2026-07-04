@@ -1,23 +1,23 @@
 import { Link } from 'react-router-dom';
-import fallbackImage from '../assets/hero.png';
+import fallbackImage from '../assets/hero.jpg';
 import { formatPrice } from '../utils/format';
 
 function EventCard({ event }) {
   const { id, title, category, date, venue, price, image } = event;
-  
+
   return (
     <div className="bg-white rounded-xl shadow-md overflow-hidden flex flex-col h-full border border-gray-100">
       <div className="h-48 w-full overflow-hidden bg-gray-200">
-        <img 
-          src={image || fallbackImage} 
-          alt={title} 
+        <img
+          src={image || fallbackImage}
+          alt={title}
           onError={(e) => {
             if (e.target.src !== fallbackImage) {
               e.target.onerror = null;
               e.target.src = fallbackImage;
             }
           }}
-          className="w-full h-full object-cover" 
+          className="w-full h-full object-cover"
         />
       </div>
       <div className="p-5 flex-grow flex flex-col justify-between">
@@ -41,7 +41,7 @@ function EventCard({ event }) {
           <span className="text-lg font-bold text-gray-900">
             {formatPrice(price)}
           </span>
-          <Link 
+          <Link
             to={`/events/${id}`}
             className="bg-blue-600 text-white text-sm font-medium px-4 py-2 rounded-lg hover:bg-blue-700 transition inline-block text-center"
           >

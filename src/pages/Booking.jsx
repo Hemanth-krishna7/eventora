@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useParams, Link, useNavigate } from 'react-router-dom';
 import eventsData from '../data/events.json';
-import fallbackImage from '../assets/hero.png';
+import fallbackImage from '../assets/hero.jpg';
 import { formatPrice } from '../utils/format';
 
 function Booking() {
@@ -44,7 +44,7 @@ function Booking() {
   // Derived Booking Summary Values (no duplicate state variables)
   const displayImage = image || fallbackImage;
   const isFreeEvent = price === 0;
-  
+
   // Total price logic
   const totalPriceVal = isFreeEvent ? 0 : price * (tickets || 1);
   const displayTotalPrice = isFreeEvent ? 'Free' : formatPrice(totalPriceVal);
@@ -144,7 +144,7 @@ function Booking() {
 
     // Validation success: Disable button and route with state
     setIsSubmitting(true);
-    
+
     navigate('/booking-success', {
       state: {
         eventName: title,
@@ -158,16 +158,16 @@ function Booking() {
   return (
     <div className="bg-gray-50 min-h-screen py-8 md:py-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        
+
         {/* Booking Form Layout */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 md:gap-12">
-          
+
           {/* Left Column: Form (7/12 width) */}
           <div className="lg:col-span-7 bg-white rounded-xl shadow-md border border-gray-100 p-6 md:p-8 text-left">
             <h1 className="text-2xl font-bold text-gray-900 mb-6">Book Tickets</h1>
-            
+
             <form onSubmit={handleSubmit} className="space-y-6">
-              
+
               {/* Full Name */}
               <div>
                 <label htmlFor="fullname" className="block text-sm font-semibold text-gray-700 mb-1">
@@ -301,7 +301,7 @@ function Booking() {
                 <h3 className="text-lg font-bold text-gray-900 leading-snug">
                   {title}
                 </h3>
-                
+
                 <div className="grid grid-cols-2 gap-4 text-xs text-gray-600">
                   <div>
                     <span className="font-semibold text-gray-900 block">Date</span>
@@ -328,7 +328,7 @@ function Booking() {
                   <span>Ticket Price</span>
                   <span className="font-semibold text-gray-900">{displayTicketPrice}</span>
                 </div>
-                
+
                 <div className="flex justify-between text-gray-600">
                   <span>Quantity</span>
                   <span className="font-semibold text-gray-900">{tickets || 0}</span>
@@ -341,7 +341,7 @@ function Booking() {
                   </span>
                 </div>
               </div>
-              
+
             </div>
           </div>
 
