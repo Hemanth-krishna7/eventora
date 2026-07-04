@@ -4,7 +4,7 @@ Eventora is a modern event discovery and ticket booking website that helps users
 
 ## Live Demo
 
-https://4ada8a83.eventora.pages.dev/
+https://4ada8a83.eventora.pages.dev
 
 ## What You'll Find
 
